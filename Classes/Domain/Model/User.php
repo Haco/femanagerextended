@@ -25,6 +25,14 @@ class User extends \In2\Femanager\Domain\Model\User {
 	protected $privacyPolicy = FALSE;
 
 	/**
+	 * @param string $username
+	 * @param string $password
+	 */
+	public function __construct($username = '', $password = '') {
+		parent::__construct($username, $password);
+	}
+
+	/**
 	 * @return \SJBR\StaticInfoTables\Domain\Model\Country
 	 */
 	public function getStaticCountry() {

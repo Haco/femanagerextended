@@ -39,28 +39,20 @@ class User extends \In2\Femanager\Domain\Model\User {
 	}
 
 	/**
-	 * Returns the staticCountryZone
-	 *
-	 * @return \SJBR\StaticInfoTables\Domain\Model\CountryZone $staticCountryZone
+	 * @return \SJBR\StaticInfoTables\Domain\Model\CountryZone
 	 */
 	public function getStaticCountryZone() {
 		return $this->staticCountryZone;
 	}
 
 	/**
-	 * Sets the staticCountryZone
-	 *
 	 * @param \SJBR\StaticInfoTables\Domain\Model\CountryZone $staticCountryZone
-	 *
-*@return void
 	 */
 	public function setStaticCountryZone(\SJBR\StaticInfoTables\Domain\Model\CountryZone $staticCountryZone = NULL) {
 		$this->staticCountryZone = $staticCountryZone;
 	}
 
 	/**
-	 * Returns the privacyPolicy
-	 *
 	 * @return boolean
 	 */
 	public function isPrivacyPolicy() {
@@ -68,8 +60,13 @@ class User extends \In2\Femanager\Domain\Model\User {
 	}
 
 	/**
-	 * Sets the privacyPolicy
-	 *
+	 * @return boolean
+	 */
+	public function getPrivacyPolicy() {
+		return $this->privacyPolicy;
+	}
+
+	/**
 	 * @param boolean $privacyPolicy
 	 */
 	public function setPrivacyPolicy($privacyPolicy) {

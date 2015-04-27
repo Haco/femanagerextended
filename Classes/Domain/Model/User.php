@@ -8,14 +8,14 @@ class User extends \In2\Femanager\Domain\Model\User {
 	 *
 	 * @var \Ecom\EcomToolbox\Domain\Model\Region
 	 */
-	protected $t3ecomtoolboxCountry = NULL;
+	protected $ecomToolboxCountry = NULL;
 
 	/**
 	 * ecomToolboxState
 	 *
 	 * @var \Ecom\EcomToolbox\Domain\Model\State
 	 */
-	protected $t3ecomtoolboxState = NULL;
+	protected $ecomToolboxState = NULL;
 
 	/**
 	 * privacyPolicy
@@ -35,29 +35,29 @@ class User extends \In2\Femanager\Domain\Model\User {
 	/**
 	 * @return \Ecom\EcomToolbox\Domain\Model\Region
 	 */
-	public function getT3ecomtoolboxCountry() {
-		return $this->t3ecomtoolboxCountry;
+	public function getEcomToolboxCountry() {
+		return $this->ecomToolboxCountry;
 	}
 
 	/**
-	 * @param \Ecom\EcomToolbox\Domain\Model\Region $t3ecomtoolboxCountry
+	 * @param \Ecom\EcomToolbox\Domain\Model\Region $ecomToolboxCountry
 	 */
-	public function setT3ecomtoolboxCountry(\Ecom\EcomToolbox\Domain\Model\Region $t3ecomtoolboxCountry = NULL) {
-		$this->t3ecomtoolboxCountry = $t3ecomtoolboxCountry;
+	public function setEcomToolboxCountry(\Ecom\EcomToolbox\Domain\Model\Region $ecomToolboxCountry = NULL) {
+		$this->ecomToolboxCountry = $ecomToolboxCountry;
 	}
 
 	/**
 	 * @return \Ecom\EcomToolbox\Domain\Model\State
 	 */
-	public function getT3ecomtoolboxState() {
-		return $this->t3ecomtoolboxState;
+	public function getEcomToolboxState() {
+		return $this->ecomToolboxState;
 	}
 
 	/**
-	 * @param \Ecom\EcomToolbox\Domain\Model\State $t3ecomtoolboxState
+	 * @param \Ecom\EcomToolbox\Domain\Model\State $ecomToolboxState
 	 */
-	public function setT3ecomtoolboxState(\Ecom\EcomToolbox\Domain\Model\State $t3ecomtoolboxState = NULL) {
-		$this->t3ecomtoolboxState = $t3ecomtoolboxState;
+	public function setEcomToolboxState(\Ecom\EcomToolbox\Domain\Model\State $ecomToolboxState = NULL) {
+		$this->ecomToolboxState = $ecomToolboxState;
 	}
 
 	/**

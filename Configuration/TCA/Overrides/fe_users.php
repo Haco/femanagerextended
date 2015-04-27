@@ -47,7 +47,7 @@ $columns = [
 		]
 	],
 	'ecom_toolbox_state' => [
-		'displayCond' => 'FIELD:ecom_toolbox_region:REQ:TRUE',
+		'displayCond' => 'FIELD:ecom_toolbox_country:REQ:TRUE',
 		'exclude' => 1,
 		'label' => 'LLL:EXT:femanagerextended/Resources/Private/Language/locallang_db.xlf:tx_femanagerextended_domain_model_user.ecom_toolbox_state',
 		'config' => [

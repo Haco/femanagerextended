@@ -56,7 +56,7 @@ $columns = [
 				[ '', 0 ]
 			],
 			'foreign_table' => 'tx_ecomtoolbox_domain_model_state',
-			'foreign_table_where' => 'AND tx_ecomtoolbox_domain_model_state.country=###REC_FIELD_ecom_toolbox_region### AND tx_ecomtoolbox_domain_model_state.deleted=0 ORDER BY tx_ecomtoolbox_domain_model_state.title'
+			'foreign_table_where' => 'AND tx_ecomtoolbox_domain_model_state.country=###REC_FIELD_ecom_toolbox_country### AND tx_ecomtoolbox_domain_model_state.deleted=0 ORDER BY tx_ecomtoolbox_domain_model_state.title'
 		]
 	],
 	'privacy_policy' => [

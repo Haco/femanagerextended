@@ -7,12 +7,6 @@
 			<trans-unit id="tx_femanagerextended_domain_model_user">
 				<source>User</source>
 			</trans-unit>
-			<trans-unit id="tx_femanagerextended_domain_model_user.static_country">
-				<source>Country</source>
-			</trans-unit>
-			<trans-unit id="tx_femanagerextended_domain_model_user.static_country_zone">
-				<source>State / Province</source>
-			</trans-unit>
 			<trans-unit id="tx_femanagerextended_domain_model_user.ecom_toolbox_country">
 				<source>Country</source>
 			</trans-unit>

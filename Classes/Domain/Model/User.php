@@ -18,6 +18,20 @@ class User extends \In2\Femanager\Domain\Model\User {
 	protected $staticCountryZone = NULL;
 
 	/**
+	 * ecomToolboxCountry
+	 *
+	 * @var \Ecom\EcomToolbox\Domain\Model\Region
+	 */
+	protected $t3ecomtoolboxCountry = NULL;
+
+	/**
+	 * ecomToolboxState
+	 *
+	 * @var \Ecom\EcomToolbox\Domain\Model\State
+	 */
+	protected $t3ecomtoolboxState = NULL;
+
+	/**
 	 * privacyPolicy
 	 *
 	 * @var boolean
@@ -61,6 +75,34 @@ class User extends \In2\Femanager\Domain\Model\User {
 	}
 
 	/**
+	 * @return \Ecom\EcomToolbox\Domain\Model\Region
+	 */
+	public function getT3ecomtoolboxCountry() {
+		return $this->t3ecomtoolboxCountry;
+	}
+
+	/**
+	 * @param \Ecom\EcomToolbox\Domain\Model\Region $t3ecomtoolboxCountry
+	 */
+	public function setT3ecomtoolboxCountry(\Ecom\EcomToolbox\Domain\Model\Region $t3ecomtoolboxCountry = NULL) {
+		$this->t3ecomtoolboxCountry = $t3ecomtoolboxCountry;
+	}
+
+	/**
+	 * @return \Ecom\EcomToolbox\Domain\Model\State
+	 */
+	public function getT3ecomtoolboxState() {
+		return $this->t3ecomtoolboxState;
+	}
+
+	/**
+	 * @param \Ecom\EcomToolbox\Domain\Model\State $t3ecomtoolboxState
+	 */
+	public function setT3ecomtoolboxState(\Ecom\EcomToolbox\Domain\Model\State $t3ecomtoolboxState = NULL) {
+		$this->t3ecomtoolboxState = $t3ecomtoolboxState;
+	}
+
+	/**
 	 * @return boolean
 	 */
 	public function isPrivacyPolicy() {
@@ -80,7 +122,6 @@ class User extends \In2\Femanager\Domain\Model\User {
 	public function setPrivacyPolicy($privacyPolicy) {
 		$this->privacyPolicy = $privacyPolicy;
 	}
-
 
 }
 ?>

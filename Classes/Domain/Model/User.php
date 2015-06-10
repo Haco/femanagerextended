@@ -4,18 +4,18 @@ namespace In2\Femanagerextended\Domain\Model;
 class User extends \In2\Femanager\Domain\Model\User {
 
 	/**
-	 * staticCountry
+	 * ecomToolboxCountry
 	 *
-	 * @var \SJBR\StaticInfoTables\Domain\Model\Country
+	 * @var \Ecom\EcomToolbox\Domain\Model\Region
 	 */
-	protected $staticCountry = NULL;
+	protected $ecomToolboxCountry = NULL;
 
 	/**
-	 * staticCountryZone
+	 * ecomToolboxState
 	 *
-	 * @var \SJBR\StaticInfoTables\Domain\Model\CountryZone
+	 * @var \Ecom\EcomToolbox\Domain\Model\State
 	 */
-	protected $staticCountryZone = NULL;
+	protected $ecomToolboxState = NULL;
 
 	/**
 	 * privacyPolicy
@@ -33,31 +33,31 @@ class User extends \In2\Femanager\Domain\Model\User {
 	}
 
 	/**
-	 * @return \SJBR\StaticInfoTables\Domain\Model\Country
+	 * @return \Ecom\EcomToolbox\Domain\Model\Region
 	 */
-	public function getStaticCountry() {
-		return $this->staticCountry;
+	public function getEcomToolboxCountry() {
+		return $this->ecomToolboxCountry;
 	}
 
 	/**
-	 * @param \SJBR\StaticInfoTables\Domain\Model\Country $staticCountry
+	 * @param \Ecom\EcomToolbox\Domain\Model\Region $ecomToolboxCountry
 	 */
-	public function setStaticCountry(\SJBR\StaticInfoTables\Domain\Model\Country $staticCountry = NULL) {
-		$this->staticCountry = $staticCountry;
+	public function setEcomToolboxCountry(\Ecom\EcomToolbox\Domain\Model\Region $ecomToolboxCountry = NULL) {
+		$this->ecomToolboxCountry = $ecomToolboxCountry;
 	}
 
 	/**
-	 * @return \SJBR\StaticInfoTables\Domain\Model\CountryZone
+	 * @return \Ecom\EcomToolbox\Domain\Model\State
 	 */
-	public function getStaticCountryZone() {
-		return $this->staticCountryZone;
+	public function getEcomToolboxState() {
+		return $this->ecomToolboxState;
 	}
 
 	/**
-	 * @param \SJBR\StaticInfoTables\Domain\Model\CountryZone $staticCountryZone
+	 * @param \Ecom\EcomToolbox\Domain\Model\State $ecomToolboxState
 	 */
-	public function setStaticCountryZone(\SJBR\StaticInfoTables\Domain\Model\CountryZone $staticCountryZone = NULL) {
-		$this->staticCountryZone = $staticCountryZone;
+	public function setEcomToolboxState(\Ecom\EcomToolbox\Domain\Model\State $ecomToolboxState = NULL) {
+		$this->ecomToolboxState = $ecomToolboxState;
 	}
 
 	/**
@@ -80,7 +80,6 @@ class User extends \In2\Femanager\Domain\Model\User {
 	public function setPrivacyPolicy($privacyPolicy) {
 		$this->privacyPolicy = $privacyPolicy;
 	}
-
 
 }
 ?>

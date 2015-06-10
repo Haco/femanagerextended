@@ -4,10 +4,10 @@
 		<header/>
 		<body>
 
-			<trans-unit id="static_country.description">
+			<trans-unit id="ecom_toolbox_country.description">
 				<source>Country</source>
 			</trans-unit>
-			<trans-unit id="static_country_zone.description">
+			<trans-unit id="ecom_toolbox_state.description">
 				<source>State / Province</source>
 			</trans-unit>
 			<trans-unit id="privacy_policy.description">
